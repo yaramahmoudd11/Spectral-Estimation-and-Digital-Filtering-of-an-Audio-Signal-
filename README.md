@@ -68,15 +68,3 @@ Simulink was used to model 8-PAM using:
 
 Results were consistent with MATLAB simulation.
 
----
-
-## 🧠 MATLAB Code Overview
-
-```matlab
-% Core logic includes:
-EbNoVec = 0:2:20;
-M = 2;
-transmittedBits = randi([0 M-1], numBits, 1);
-transmittedSymbols = 2 * transmittedBits - 1;
-...
-theoreticalBER(i) = qfunc(sqrt(2 * SNR));
