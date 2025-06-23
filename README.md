@@ -1,6 +1,4 @@
-# Spectral Estimation and Digital Filtering of an Audio Signal  
-### Course Project – CIE 237  
-### Title: Performance of Correlation Receivers for M-PAM over AWGN Channels  
+# performance of Correlation Receivers for M-PAM over AWGN Channels  
 
 
 ---
